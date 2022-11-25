@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "JustParty",
+    "slug": "JustParty",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2B2B2B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tommaso.JustParty"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2B2B2B"
+      },
+      "package": "com.tommaso.JustParty"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f4f7a1bb-2769-417a-92b8-075ab5c62d07"
+      }
+    }
+  }
+}
