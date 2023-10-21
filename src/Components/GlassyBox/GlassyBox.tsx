@@ -5,18 +5,20 @@ import constants from "../../../constants";
 
 export const GlassyBox = (props) => {
   return (
-    <BlurView
-      intensity={40}
-      style={{ borderRadius: styles.container.borderRadius, marginBottom: 30 }}
+    <View
+      style={{
+        borderRadius: styles.container.borderRadius,
+        marginBottom: 30,
+      }}
     >
       <LinearGradient
         colors={["#3E3E3E", "#313131"]}
         locations={[0.2, 0.8]}
-        style={styles.container}
+        style={{ ...styles.container }}
       >
         {props.children}
       </LinearGradient>
-    </BlurView>
+    </View>
   );
 };
 

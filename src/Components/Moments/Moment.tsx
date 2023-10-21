@@ -10,9 +10,9 @@ import { GlassyBox } from "../GlassyBox/GlassyBox";
 
 export const Moment = () => {
   return (
-    <TouchableOpacity style={styles.moment}>
+    <TouchableOpacity style={{ ...styles.moment }}>
       <GlassyBox>
-        <View style={styles.header}>
+        <View style={{ ...styles.header }}>
           <View
             style={{
               flexDirection: "row",
